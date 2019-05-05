@@ -1,7 +1,7 @@
 {
   "name": "request-fallback",
-  "version": "1.0.0",
-  "description": "requests which fallback to other cache mechanism if error occurs",
+  "version": "0.0.1",
+  "description": "request which fallbacks to other cache mechanism if any error occurs",
   "main": "src/index.js",
   "scripts": {
     "test": "NODE_DEBUG=request-fallback nyc ava --timeout=10s --verbose",

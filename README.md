@@ -15,7 +15,7 @@
 
 # request-fallback
 
-requests which fallback to other cache mechanism if error occurs
+request which fallbacks to other cache mechanism if any error occurs
 
 ## Install
 
@@ -26,7 +26,14 @@ $ npm i request-fallback
 ## Usage
 
 ```js
-const request_fallback = require('request-fallback')
+const request = require('request-fallback')
+
+request({
+  url,
+  fallback (req, res) {
+
+  }
+}).pipe(res)
 ```
 
 ## License
